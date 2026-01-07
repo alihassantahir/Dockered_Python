@@ -1,6 +1,5 @@
-def main():
-    print("Hello, Docker + Python")
+# app.py
+import numpy as np
 
-
-if __name__ == "__main__":
-    main()
+arr = np.random.rand(5)
+print("Random array:", arr)
